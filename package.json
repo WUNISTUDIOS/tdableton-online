@@ -1,0 +1,12 @@
+{
+  "name": "tdableton-online",
+  "version": "1.0.0",
+  "description": "Send OSC between Ableton and TouchDesigner over the internet via a WebSocket relay",
+  "private": true,
+  "scripts": {
+    "start": "node relay/server.js",
+    "bridge": "node bridge/bridge.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" }
+}
